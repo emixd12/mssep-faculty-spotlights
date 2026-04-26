@@ -103,7 +103,8 @@
 
     @media (max-width: 640px) {
       .video-frame {
-        aspect-ratio: 1 / 1;
+        aspect-ratio: auto;
+        height: clamp(440px, 110vw, 470px);
       }
 
       .video-caption {
